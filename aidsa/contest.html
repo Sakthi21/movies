@@ -328,11 +328,11 @@
 
                 // Laptop 1 Value Cell
                 const cell1 = row.insertCell();
-                cell1.textContent = feature.key === 'price' ? '$${value1}' : value1;
+                cell1.textContent = feature.key === 'price' ? `$${value1}` : value1;
 
                 // Laptop 2 Value Cell
                 const cell2 = row.insertCell();
-                cell2.textContent = feature.key === 'price' ? '$${value2}' : value2;
+                cell2.textContent = feature.key === 'price' ? `$${value2}` : value2;
 
                 if (feature.isQuantitative) {
                     // Apply highlighting
